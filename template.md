@@ -5,5 +5,8 @@ Jose valim was created Elixir programming language 9 years ago. He took the best
 - Why was it invented
 - When/why shall we use it
 - How to setup an environment to use it in different platforms
+Windows
+-[Web installer](https://repo.hex.pm/elixir-websetup.exe)  
+Click next,next...to complete
 - Example codes
 - Things that are specific to this language?
