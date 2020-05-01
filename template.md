@@ -10,7 +10,7 @@ Windows
 Click next,next...to complete  
 Linux  
 Ubuntu or Debian  
--Add Erlang solution repo: ´wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb´   
+-Add Erlang solution repo: `wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb`     
 -Run : ´sudo apt-get update´     
 -Install the Erlang/OTP platform s: ´sudo apt-get install esl-erlang´  
 -Install Elixir: ´sudo apt-get install elixir´  
