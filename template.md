@@ -2,7 +2,8 @@ Elixir
 
 - History of the language:    
 Jose valim was created Elixir programming language 9 years ago. He took the best features of Erlang, Ruby and Clojure for the language that he wants to create. Also, other programming language creators were influenced by the elixir, like Lisp Flavored Erland(LFE). Elixir is a dynamic, concurrent, functional language works on Erlan VM(BEAM). Elixir use of everything the Erlang VM provides and enables higher extensibility with macros and polymorphism.
-- Why was it invented
+- Why was it invented  
+Before Jose Valim created elixir, he's job was to improve the RUBY on Rails framework performance.It means jose valim know the week sides of the RUBY. The real problem of RUBY was the RUBY was not designed good enough to solve concurerency Problem. So he developed language with high-concurrency and low-latency language. 
 - When/why shall we use it    
 -** How to setup an environment to use it in different platforms**    
 Windows  
