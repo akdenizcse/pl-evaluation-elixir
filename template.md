@@ -9,16 +9,16 @@ Windows
 -[Web installer](https://repo.hex.pm/elixir-websetup.exe)  
 -Click next,next...to complete  
 Linux    
->Ubuntu or Debian  
+Ubuntu or Debian  
 -Add Erlang solution repo: `wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb`     
 -Run : `sudo apt-get update`     
 -Install the Erlang/OTP platform s: `sudo apt-get install esl-erlang`  
 -Install Elixir: `sudo apt-get install elixir` 
 macOS  
->Homebrew  
+Homebrew  
 -Update your homebrew to latest: `brew update`  
 -Run: `brew install elixir`  
->Macports
+Macports
 -Run: `sudo port install elixir`  
 
 - Example codes
