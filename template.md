@@ -7,12 +7,19 @@ Jose valim was created Elixir programming language 9 years ago. He took the best
 **- How to setup an environment to use it in different platforms**    
 Windows  
 -[Web installer](https://repo.hex.pm/elixir-websetup.exe)  
-Click next,next...to complete  
-Linux  
-Ubuntu or Debian  
+-Click next,next...to complete  
+Linux    
+>Ubuntu or Debian  
 -Add Erlang solution repo: `wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb`     
--Run : ´sudo apt-get update´     
--Install the Erlang/OTP platform s: ´sudo apt-get install esl-erlang´  
--Install Elixir: ´sudo apt-get install elixir´  
+-Run : `sudo apt-get update`     
+-Install the Erlang/OTP platform s: `sudo apt-get install esl-erlang`  
+-Install Elixir: `sudo apt-get install elixir` 
+macOS  
+>Homebrew  
+-Update your homebrew to latest: `brew update`  
+-Run: `brew install elixir`  
+>Macports
+-Run: `sudo port install elixir`  
+
 - Example codes
 - Things that are specific to this language?
