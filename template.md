@@ -76,8 +76,9 @@ else
   y=7+6  
   IO.puts(y)  
 End          --> prints console 8  
-
-``` #### Calculator  
+  
+#### Calculator  
+```    
 defmodule Calculator do  
  def add(x,y) do  
  x+y  
