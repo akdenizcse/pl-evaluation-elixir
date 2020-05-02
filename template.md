@@ -88,9 +88,9 @@ def sub(x,y) do
  x-y  
 end  
 def sum(x,y) do  
-x*y  
- end  
- def div(x,y) do  
+ x*y  
+end  
+def div(x,y) do  
  x/y  
 end  
 end  
