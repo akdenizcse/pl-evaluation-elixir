@@ -14,7 +14,7 @@
 
 ## -**How to setup an environment to use it in different platforms**    
 #### Windows  
--[Web installer](https://repo.hex.pm/elixir-websetup.exe)  
+-Download and run [Web installer](https://repo.hex.pm/elixir-websetup.exe)  
 -Click next,next...to complete  
 #### Linux(Ubuntu or Debian)  
 -Add Erlang solution repo: `wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb`     
@@ -31,6 +31,8 @@ Macports
 ## - Example codes    
 
 #### Integer  
+5 --> Integer  
+0x1F --> Integer  
 div(20,10) --> 2  
 rem(7,3) --> 1  
   
@@ -102,4 +104,36 @@ Calculator.sum(3,25) --> 75
   
 Calculator.div(36,9) --> 4   
 ``` 
+#### Fibonacci  
+```  
+defmodule Fibonacci do 
+  def fib(0) do
+ 0 
+end
+  def fib(1) do 
+1 
+end
+  def fib(n) do 
+fib(n-1) + fib(n-2) 
+	end
+end
+
+Fibonacci.fib(25)
+75025  
+``` 
+#### Factorial  
+``` 
+defmodule Factorial do
+   def fac(0) do
+   1
+   end	
+   def fac(n) do
+   n * fac(n-1)
+   end
+end
+
+Factorial.fac(5)
+120  
+```   
+
 ## - Things that are specific to this language?
