@@ -28,7 +28,7 @@ Homebrew
 Macports
 -Run: `sudo port install elixir`  
 
-## - Example codes    
+## - Elixir Basic and Example codes    
 
 #### Integer  
 5 --> Integer  
