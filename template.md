@@ -1,10 +1,12 @@
 Elixir
 
 - History of the language:    
-Jose valim was created Elixir programming language 9 years ago. He took the best features of Erlang, Ruby and Clojure for the language that he wants to create. Also, other programming language creators were influenced by the elixir, like Lisp Flavored Erland(LFE). Elixir is a dynamic, concurrent, functional language works on Erlan VM(BEAM). Elixir use of everything the Erlang VM provides and enables higher extensibility with macros and polymorphism.
+  José Valim was created Elixir programming language 9 years ago. Elixir is highly influenced by ERLANG and RUBY. So, he took the best features of Erlang and Ruby for the language that he wants to create. Also, other programming language creators were influenced by the elixir, like Lisp Flavored Erland(LFE). Elixir is a dynamic, concurrent, functional language works on Erlan VM(BEAM). Elixir use of everything the Erlang VM provides and enables higher extensibility with macros and polymorphism.
 - Why was it invented  
-Before Jose Valim created elixir, he's job was to improve the RUBY on Rails framework performance.It means jose valim know the week sides of the RUBY. The real problem of RUBY was the RUBY was not designed good enough to solve concurerency Problem. So he developed language with high-concurrency and low-latency language. 
-- When/why shall we use it    
+  Before José Valim created elixir, he's job was to improve the RUBY on Rails framework performance.It means jose valim know the week sides of the RUBY. The real problem of RUBY was the RUBY was not designed good enough to solve concurerency Problem. So he developed language with high-concurrency and low-latency language. 
+- When/why shall we use it   
+  Banks need reliable, efficient, and fast data operations and data transfer. And also data that store in the bank systems has a large volume. Functional programming is a good tool for complex data operations. Elixir is a functional programming language. So, you can choose ELIXIR for your data operations. Also, elixir is highly reliable. The number of user does not affect the elixir. Because elixir works regardless of user number.
+
 -** How to setup an environment to use it in different platforms**    
 Windows  
 -[Web installer](https://repo.hex.pm/elixir-websetup.exe)  
