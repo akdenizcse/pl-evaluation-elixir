@@ -78,20 +78,7 @@ else
 End          --> prints console 8  
   
 #### Calculator  
-```    
-defmodule Calculator do  
- def add(x,y) do  
- x+y  
-end  
-def sub(x,y) do  
- x-y  
-enddef sum(x,y) do  
-...(1)> x*y  
-...(1)> end  
- def div(x,y) do  
- x/y  
-end  
-.end  
+```elixir      
 defmodule Calculator do  
  def add(x,y) do  
  x+y  
@@ -107,7 +94,12 @@ x*y
  x/y  
 end  
 end  
-Calculator.add(3,4)  
-7  
-```
+Calculator.add(3,4) -->7  
+  
+Calculator.sub(120,35) --> 85  
+  
+Calculator.sum(3,25) --> 75  
+  
+Calculator.div(36,9) --> 4   
+``` 
 ## - Things that are specific to this language?
