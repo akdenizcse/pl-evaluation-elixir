@@ -135,7 +135,7 @@ end
 Factorial.fac(5) --> 120  
 ```   
 
-## - Things that are specific to Elixir?  
+##  Things that are specific to Elixir?  
 #### Phoenix  
 Phoenix is a web development framework built with the Elixir on the server-side. Phoenix is used for building low-latency, fault-tolerant, distributed systems. It seems familiar with many of its components and concepts Ruby Rails. Phoenix provides the best for high productivity and high application performance. Phoenix framework purposes web applications, API backends, soft real-time systems, and messaging applications.     
 #### Nerves  
