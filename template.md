@@ -1,7 +1,7 @@
 # Elixir
 
-##  History of Elixir:    
-  José Valim was created Elixir programming language in 2011 and first release in 2012. Elixir is highly influenced by ERLANG and RUBY. So, he took the best features of Erlang and Ruby for the language that he wants to create. Also, other programming language creators were influenced by the elixir, like Lisp Flavored Erland(LFE). Elixir is a dynamic, concurrent, functional language works on Erlan VM(BEAM). Elixir use of everything the Erlang VM provides and enables higher extensibility with macros and polymorphism.  
+##  History of Elixir    
+  José Valim was created Elixir programming language in 2011 and first release in 2012. Elixir is highly influenced by ERLANG and RUBY. So, he took the best features of Erlang and Ruby for the language that he wants to create. Also, other programming language creators were influenced by the elixir, like Lisp Flavored Erland(LFE). Elixir is a dynamic, concurrent, functional language works on Erlang VM(BEAM). Elixir use of everything the Erlang VM provides and enables higher extensibility with macros and polymorphism.  
 ##  Why was Elixir invented?    
   Before José Valim created elixir, he's job was to improve the RUBY on Rails framework performance.It means jose valim know the week sides of the RUBY. The real problem of RUBY was the RUBY was not designed good enough to solve concurerency Problem. So he developed language with high-concurrency and low-latency language. 
 ##  Why shall we use Elixir?     
@@ -19,7 +19,7 @@
 #### Linux(Ubuntu or Debian)  
 -Add Erlang solution repo: `wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb`     
 -Run : `sudo apt-get update`     
--Install the Erlang/OTP platform s: `sudo apt-get install esl-erlang`  
+-Install the Erlang/OTP platforms: `sudo apt-get install esl-erlang`  
 -Install Elixir: `sudo apt-get install elixir`   
 #### macOS  
 Homebrew  
@@ -136,5 +136,10 @@ Factorial.fac(5) --> 120
 ```   
 
 ## - Things that are specific to Elixir?  
--Phoenix is a web development framework built with the Elixir on the server-side. Phoenix is used for building low-latency, fault-tolerant, distributed systems. It seems familiar with many of its components and concepts Ruby Rails. Phoenix provides the best for high productivity and high application performance. Phoenix framework purposes web applications, API backends, soft real-time systems, and messaging applications.     
--Nerves is a special framework elixir. Nerves gives ability to elixir to build, deploy, and push updates to your devices that you use in the real-world. Nerves is a great tool for to connect Iot devices with each other. Like you can develop home security system or robotics.   
+#### Phoenix  
+Phoenix is a web development framework built with the Elixir on the server-side. Phoenix is used for building low-latency, fault-tolerant, distributed systems. It seems familiar with many of its components and concepts Ruby Rails. Phoenix provides the best for high productivity and high application performance. Phoenix framework purposes web applications, API backends, soft real-time systems, and messaging applications.     
+#### Nerves  
+Nerves is a special framework elixir. Nerves gives ability to elixir to build, deploy, and push updates to your devices that you use in the real-world. Nerves is a great tool for to connect Iot devices with each other. Like you can develop home security system or robotics.   
+#### Mix  
+Mix is a build tool for working applications written in Elixir. Mix provides tasks for creating, build, compiling, run, testing Elixir projects, and managing its dependencies.  
+
