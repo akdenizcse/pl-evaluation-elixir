@@ -136,4 +136,5 @@ Factorial.fac(5) --> 120
 ```   
 
 ## - Things that are specific to Elixir?  
--Phoenix is a web development framework built with the Elixir on the server-side. Phoenix is used for building low-latency, fault-tolerant, distributed systems. It seems familiar with many of its components and concepts Ruby Rails. Phoenix provides the best for high productivity and high application performance. Phoenix framework purposes web applications, API backends, soft real-time systems, and messaging applications.  
+-Phoenix is a web development framework built with the Elixir on the server-side. Phoenix is used for building low-latency, fault-tolerant, distributed systems. It seems familiar with many of its components and concepts Ruby Rails. Phoenix provides the best for high productivity and high application performance. Phoenix framework purposes web applications, API backends, soft real-time systems, and messaging applications.     
+-Nerves is a special framework elixir. Nerves gives ability to elixir to build, deploy, and push updates to your devices that you use in the real-world. Nerves is a great tool for to connect Iot devices with each other. Like you can develop home security system or robotics.   
