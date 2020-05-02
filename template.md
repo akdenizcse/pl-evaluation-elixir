@@ -77,5 +77,36 @@ else
   IO.puts(y)  
 End          --> prints console 8  
 
-
+``` #### Calculator  
+defmodule Calculator do  
+ def add(x,y) do  
+ x+y  
+end  
+def sub(x,y) do  
+ x-y  
+enddef sum(x,y) do  
+...(1)> x*y  
+...(1)> end  
+ def div(x,y) do  
+ x/y  
+end  
+.end  
+defmodule Calculator do  
+ def add(x,y) do  
+ x+y  
+end  
+  
+def sub(x,y) do  
+ x-y  
+end  
+def sum(x,y) do  
+x*y  
+ end  
+ def div(x,y) do  
+ x/y  
+end  
+end  
+Calculator.add(3,4)  
+7  
+```
 ## - Things that are specific to this language?
