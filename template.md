@@ -118,8 +118,8 @@ fib(n-1) + fib(n-2)
 	end
 end
 
-Fibonacci.fib(25)
-75025  
+Fibonacci.fib(25) --> 75025  
+
 ``` 
 #### Factorial  
 ```elixir   
@@ -132,8 +132,7 @@ defmodule Factorial do
    end
 end
 
-Factorial.fac(5)
-120  
+Factorial.fac(5) --> 120  
 ```   
 
 ## - Things that are specific to this language?
