@@ -28,5 +28,54 @@ Homebrew
 Macports
 -Run: `sudo port install elixir`  
 
-## - Example codes
+## - Example codes    
+
+####Integer  
+div(20,10) --> 2  
+rem(7,3) --> 1  
+  
+####String  
+"hello" --> string  
+'hello' --> char list  
+String.graphemes("hello") --> [ “h”,”e”,”l”,”l”,”o” ]  
+String.duplicate("hello ",2) --> hello hello  
+String.downcase("Hello") --> hello  
+String.upcase("Hello") --> HELLO  
+String.reverse("hello") --> olleh  
+Atom.to_string(:hello) --> "hello"  
+  
+####List  
+[1,2,3,4] --> list  
+[head | tail] = [1,2,3] --> head = 1, tail= [2,3]  
+List.last([1,2,3,4]) --> 4  
+lenght.([1,2,3,4]) --> 3  
+hd([1,2,3,4]) --> 1  
+  
+####Tuple  
+{1,2,3,4} --> tuple  
+tuple_size({1,2,3,4}) --> 4  
+Tuple.to_list({1,2,3,4}) --> [1,2,3,4]  
+  
+####IO  
+IO.inspect([1,2,3,4]) --> prints a list [1,2,3,4]  
+IO.puts("hello") --> print to console hello  
+  
+####Conditions  
+if false do     
+  x=3+5  
+  IO.puts(x)  
+else  
+  y=7+6  
+  IO.puts(y)  
+End          --> prints console 13  
+  
+unless false do  
+  x=3+5  
+  IO.puts(x)  
+else  
+  y=7+6  
+  IO.puts(y)  
+End          --> prints console 8  
+
+
 ## - Things that are specific to this language?
