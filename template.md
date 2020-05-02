@@ -8,6 +8,8 @@
   Banks need reliable, efficient, and fast data operations and data transfer. And also data that store in the bank systems has a large volume. Functional programming is a good tool for complex data operations. Elixir is a functional programming language. So, you can choose ELIXIR for your data operations. Also, elixir is highly reliable. The number of user does not affect the elixir. Because elixir works regardless of user number.  
   
   Elixir has got some features which are flexibility, scalability, and speed, maintaining the web applications. Elixir built on top of Erlang and it has already used by many corporations. Web applications have the benefit of programming with elixir like memory management and the ability to scale linearly. Elixir web applications are efficient by making the best use multicore systems. Phoenix framework is the most popular framework for Elixir. Elixir with Phoenix combinations allows real-time processing on the server-side and javascript on the client-side to helps increase the efficiency and speed of applications for better user experience. Elixir will be a good choice for developing web applications which have many users.  
+    
+  Netflix, Pinterest, and Whatsapp using Elixir for their applications.
   
 
 ## -**How to setup an environment to use it in different platforms**    
