@@ -105,7 +105,7 @@ Calculator.sum(3,25) --> 75
 Calculator.div(36,9) --> 4   
 ``` 
 #### Fibonacci  
-```  
+```elixir    
 defmodule Fibonacci do 
   def fib(0) do
  0 
@@ -122,7 +122,7 @@ Fibonacci.fib(25)
 75025  
 ``` 
 #### Factorial  
-``` 
+```elixir   
 defmodule Factorial do
    def fac(0) do
    1
